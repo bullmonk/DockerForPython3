@@ -1,0 +1,6 @@
+version: '3'
+services:
+  machine:
+    image: bullmonk/python_machine:1.0
+    volumes:
+    - .:/pythonmachine
