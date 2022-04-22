@@ -2,7 +2,6 @@ version: '3'
 services:
   python_machine:
     build: .
-    image: bullmonk/python_machine:1.0
     command: /bin/bash
     volumes:
-    - .:/pythonmachine
+      - ./scripts:/pythonmachine
