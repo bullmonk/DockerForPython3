@@ -1,7 +1,8 @@
-version: '3'
+version: '3.9'
 services:
   python_machine:
     build: .
-    command: /bin/bash
     volumes:
       - ./scripts:/pythonmachine
+    tty: true
+    stdin_open: true
